@@ -1,9 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
+	<head>
+	<meta charset="utf-8">
+		<title>Tarea Uno</title>
+		<style type="text/css">
+		
+		body{
+			background-color: #333;
+			color: #FFF;
+			text-align: center;
+		}
+		nav ul li{
+			table-layout: 90px;
+			list-style: none;
+			display: inline-block;
+			margin-right: 90px;
+			cursor: pointer;
+		}
+		#centro{
+			text-align: center;
+			background-color: #333;
+		}
+		header{
+			width: 960px;
+			margin: 0 auto;
+		}
+		#text{
+			width: 600px;
+			height: 300px;
+			background-color: #333;
+			color: #FFF;
+			margin: 0 auto;			
+		}
+		aside{
+			margin-left: 600px;
+			width: 300px;
 
-</body>
+		}
+		</style>	
+	</head>
+	<body>
+		<div>
+		<header> <!--se utiliza para el encabezado de la pagina-->
+			<hgroup> <!-- se utiliza para agrupar las etiquetas h -->
+			<h1>Tarea Uno </h1>
+			<h2>Investigación de HTML5</h2>
+			</hgroup>
+			</header>	
+			<nav> <!-- Define los botones de navegacion de nuestra pagina-->
+			<ul><!--Para declarar una lista en la pagina-->
+				<li><!-- es un elemento de la lista  en ul -->
+					<a href="">Inicio</a> <!-- se declara para usar una referencia un link-->
+				</li>
+				<li>
+					<a href="">Musica</a>
+				</li>
+				<li>
+					<a href="">Video</a>
+				</li>				
+			</ul>
+			</nav>	
+		<section id="text">
+			<div>
+				<article><!-- se puede decir que es la zona principal para declar texto o elementos -->
+					Aqui podria ir el texto del articulo si hablamos de n blog
+				</article>
+				<aside> 
+				Aside que es utilizada para los Widgets y otros contenidos
+				</aside>
+			</div>
+		</section>
+		
+		<footer>
+			<p>El pie de pagina</p>
+		</footer>
+		</div>
+	</body>
 </html>
