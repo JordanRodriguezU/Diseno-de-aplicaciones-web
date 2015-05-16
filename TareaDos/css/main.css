@@ -4,11 +4,37 @@ body{
 img{
 	max-width: 100%;
 }
+#perfil{
+	margin-top: 10px;
+	max-width: 55%;
+	border-radius: 45px;
+	text-align: center;
+
+}
+.nombre{
+	margin-top: 50px;
+	text-align: left;
+	margin-left:   100PX;
+}
+h4{
+	text-align: center;
+}
+.informacionPersonal{
+	margin-top: 50px;
+	text-align: left;
+}
+.titulos{
+	margin-right: 70px;
+}
 .quitar-float{
 	float: none;
 }
 .espacio-arriba{
-	margin-top: 100px; 
+	margin-top: 80px; 
+}
+.espacio-abajo{
+	margin-bottom: 30px; 
+	padding-bottom: 90px;
 }
 .pacifico{
 	font-family: 'Pacifico', cursive;
