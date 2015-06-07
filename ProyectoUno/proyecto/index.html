@@ -1,30 +1,59 @@
-<!doctype>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8"></meta>
-		<link rel="stylesheet" href="css/css.css"></link>
+		
 		<title>ProyectoUno</title>
+		<style>
+			form{
+				margin-top: 200px;
+			  margin-left: 40%;
+			   font-size: 24px;
+			}
+			#campo{
+				 font-size: 24px;
+			   size: 25;
+				 width: 225px;
+			}
+			#boton {
+				background: #F25C84;
+			  border-color: #F25D84;
+			  height: 30px;
+			  line-height: 28px;
+			  padding: 0 12px 2px; 
+			  
+			}
+			button{
+			 background: #F25C84;
+			  border-color: #F25D84;
+			  height: 30px;
+			  width: 63px;
+			  line-height: 28px;
+			  padding: 0 12px 2px; 
+			}
+		</style>
 	</head>
 	<body>
 		<form>
 			<p>
 				<label>Email or Username
 					<br />
-					<input id="campo" type="text" size="25" />
+					<input id="campo" type="text" required />
 				</label>
 			</p>
 			<p>
 				<label>Password
 					<br />
-					<input id="campo" type="password" size="25" />
+					<input id="campo" type="password" required />
 				</label>
 			</p>
 			<p>
-				<input id="boton" type="submit"></input>
+				<!--Lo hice con input porque el boton me da problemas-->
+				<a href="clientes\index.html" target="_self"> <input id="boton" type="button"   value="enviar"  /></a>
+				<!--el self sirve para que se abra la pagina en la misma ventana-->
 			</p>
 		</form>
 	</body>
-	
 	<form></form>
 
 </html>
